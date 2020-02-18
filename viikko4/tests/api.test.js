@@ -23,9 +23,9 @@ test('GET returns correct amount of blogs', async() => {
 })
   
 test('id field is id, not _id', async() => {
-    const resultBlog = await api.get('/api/blogs/')
-    const id = resultBlog.body[0].id
-    expect(id).toBeDefined()
+  const resultBlog = await api.get('/api/blogs/')
+  const id = resultBlog.body[0].id
+  expect(id).toBeDefined()
 })
 describe('POST', () => {
     test('new blog with correct info', async() => {

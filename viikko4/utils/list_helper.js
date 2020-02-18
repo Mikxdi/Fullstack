@@ -71,5 +71,8 @@ const mostBlogs =(blogs)=>{
     return mostb
 }
 module.exports ={
-    dummy
+    dummy,
+    mostLikes,
+    mostBlogs,
+    totalLikes
 }
